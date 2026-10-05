@@ -5,8 +5,8 @@ class Solution {
         int right=n;
         int i=0;
         while(left<n){
-            nums2[left+i]=nums[left];
-            nums2[left+i+1]=nums[right];
+            nums2[left*2]=nums[left];
+            nums2[2*i+1]=nums[right];
             left++;
             right++;
             i++;
