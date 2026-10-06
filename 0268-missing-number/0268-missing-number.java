@@ -1,24 +1,16 @@
+import java.util.Arrays;
 class Solution {
     public int missingNumber(int[] nums) {
         int n=nums.length;
+        Arrays.sort(nums);
         int missingnumber=0;
-        boolean found=false;
-        for(int i=0; i<=n; i++){
-            found=false;
-          for(int j=0; j<n; j++)
-          {
-            if(i==nums[j]){
-                found=true;
-                
+        for(int i=0; i<n; i++){
+            if(i!=nums[i]){
+                return i;
             }
-          }
-          if(found==false){
-            missingnumber=i;
-            break;
-          }
-
         }
-        return missingnumber;
-        
+        return n;
     }
+        
+    
 }
