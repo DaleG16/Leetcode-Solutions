@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0027-remove-element](https://github.com/DaleG16/Leetcode-Solutions/tree/master/0027-remove-element) |
 | [0268-missing-number](https://github.com/DaleG16/Leetcode-Solutions/tree/master/0268-missing-number) |
+| [0283-move-zeroes](https://github.com/DaleG16/Leetcode-Solutions/tree/master/0283-move-zeroes) |
 ## Hash Table
 |  |
 | ------- |
@@ -30,4 +31,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0027-remove-element](https://github.com/DaleG16/Leetcode-Solutions/tree/master/0027-remove-element) |
+| [0283-move-zeroes](https://github.com/DaleG16/Leetcode-Solutions/tree/master/0283-move-zeroes) |
 <!---LeetCode Topics End-->
